@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.0 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkWindow" id="window1">
+    <property name="can_focus">False</property>
+    <signal name="destroy" handler="on_destroy" swapped="no"/>
+    <child>
+      <object class="GtkButton">
+        <property name="label" translatable="yes">Hallo Button</property>
+        <property name="width_request">200</property>
+        <property name="height_request">350</property>
+        <property name="visible">True</property>
+        <property name="can_focus">True</property>
+        <property name="receives_default">True</property>
+        <property name="halign">start</property>
+        <property name="valign">start</property>
+        <signal name="clicked" handler="on_button_clicked" swapped="no"/>
+        <signal name="enter" handler="on_button_hover" swapped="no"/>
+      </object>
+    </child>
+    <child type="titlebar">
+      <placeholder/>
+    </child>
+  </object>
+</interface>
